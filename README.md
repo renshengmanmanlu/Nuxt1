@@ -20,12 +20,13 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-## 项目结构描叙
+## 一.项目结构描叙
 ```
 ├── assets                     // 资源目录 用于组织未编译的静态资源如 LESS、SASS 或 JavaScript
 ├── components                 // 组件目录 用于组织应用的 Vue.js 组件。
 │   └── loading                // 加载动画组建
 ├── layouts                    // 布局目录 该目录名为Nuxt.js保留的，不可更改。
+│   └── route                  // 自定义路由
 ├── middleware                 // 中间件目录
 ├── pages                      //页面目录
 │   ├── loading                // 加载动画测试
@@ -40,7 +41,10 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 └── package.json               // package.json
 ```
 
-# package.json
+## 二.学习地址:
+[1.flex布局](http://blog.csdn.net/magneto7/article/details/70854472)
+
+## 三.package.json
 
 ```
 # "lru-cache": "^4.1.1",提供组件缓存功能以获得更好的渲染性能。

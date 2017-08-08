@@ -7,6 +7,9 @@
             <div>
                 <nuxt-link to="/route">2.自定义路由</nuxt-link>
             </div>
+            <div>
+                <nuxt-link to="/flex">3.flex布局</nuxt-link>
+            </div>
         </div>
     </section>
 </template>
